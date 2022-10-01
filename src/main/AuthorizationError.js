@@ -1,5 +1,5 @@
 'use strict'
 
-const { CodedError } = require('@northscaler/error-support')
+const { CodedError } = require('@ballistagroup/error-support')
 
 module.exports = CodedError({ code: 'E_AUTHORIZATION' })

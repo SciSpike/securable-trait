@@ -4,10 +4,10 @@
 const chai = require('chai')
 chai.use(require('dirty-chai'))
 const expect = chai.expect
-const { traits } = require('@northscaler/mutrait')
+const { traits } = require('@ballistagroup/mutrait')
 
 const Securable = require('../../main/Securable')
-const { PrimitiveAction } = require('@northscaler/acl')
+const { PrimitiveAction } = require('@ballistagroup/acl')
 
 const Identifiable = require('./Identifiable')
 

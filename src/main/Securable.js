@@ -1,8 +1,8 @@
 'use strict'
 
-const { Trait } = require('@northscaler/mutrait')
+const { Trait } = require('@ballistagroup/mutrait')
 
-const { Acl, StaticAccessControlStrategy, PrimitiveAction } = require('@northscaler/acl')
+const { Acl, StaticAccessControlStrategy, PrimitiveAction } = require('@ballistagroup/acl')
 const GRANT = StaticAccessControlStrategy.GRANT
 const DENY = StaticAccessControlStrategy.DENY
 const SECURE = PrimitiveAction.SECURE

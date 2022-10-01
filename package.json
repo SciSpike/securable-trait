@@ -1,10 +1,10 @@
 {
-  "name": "@northscaler/securable-trait",
+  "name": "@ballistagroup/securable-trait",
   "version": "1.2.0-pre.1",
   "description": "Securable trait that domain object can express to provide access control.",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/northscaler-public/securable-trait.git"
+    "url": "https://github.com/ballistaGroup/securable-trait.git"
   },
   "keywords": [
     "acl",
@@ -55,13 +55,13 @@
   },
   "dependencies": {
     "@babel/polyfill": "7.8.7",
-    "@northscaler/acl": "1.2.1",
-    "@northscaler/error-support": "3.1.2",
-    "@northscaler/method-access-controller": "1.1.0",
-    "@northscaler/mutrait": "1.2.0"
+    "@ballistagroup/acl": "1.4.1",
+    "@ballistagroup/error-support": "3.6.0",
+    "@ballistagroup/method-access-controller": "1.4.0",
+    "@ballistagroup/mutrait": "1.4.0"
   },
   "devDependencies": {
-    "@babel/cli": "7.8.4",
+    "@babel/cli": "7.19.3",
     "@babel/core": "7.9.6",
     "@babel/plugin-proposal-optional-chaining": "7.9.0",
     "@babel/preset-env": "7.9.6",
@@ -73,9 +73,9 @@
     "chai": "4.2.0",
     "copyfiles": "2.2.0",
     "dirty-chai": "2.0.1",
-    "jsdoc": "3.6.4",
+    "jsdoc": "3.6.11",
     "mocha": "7.1.2",
-    "npm-cli-login": "0.1.1",
+    "npm-cli-login": "0.0.10",
     "npm-run-all": "4.1.5",
     "nyc": "15.0.1",
     "rimraf": "3.0.2",

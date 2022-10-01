@@ -54,10 +54,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@babel/polyfill": "7.8.7",
     "@ballistagroup/acl": "1.4.1",
     "@ballistagroup/error-support": "3.6.0",
-    "@ballistagroup/method-access-controller": "1.4.0",
     "@ballistagroup/mutrait": "1.4.0"
   },
   "devDependencies": {
